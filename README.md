@@ -1,5 +1,9 @@
 # Jobs MCP Server
 
+![CI](https://github.com/Pragatheswar-72/jobs-mcp-server/actions/workflows/ci.yml/badge.svg)
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+
 A custom **MCP (Model Context Protocol)** server that exposes a jobs database
 to any MCP-compatible LLM client (e.g. **Claude Desktop**). Ask an LLM in
 plain English to search, filter, and match job openings — it calls this
