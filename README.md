@@ -54,19 +54,9 @@ match_jobs(candidate_summary="Backend engineer with 4 years of Python, Django, P
 }
 ```
 
-**2. [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector)** (Anthropic's official debugging UI) — connected over stdio, ran `search_jobs(skill="Python", remote=true, min_salary_lpa=15)`, got back a live `Tool Result: Success` with real rows from `jobs.db` (10 matches; first shown):
+**2. [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector)** (Anthropic's official debugging UI) — connected over stdio, ran `search_jobs(min_salary_lpa=25)`, got back a live `Tool Result: Success` with real rows from `jobs.db`:
 
-```json
-{
-  "job_id": 10,
-  "title": "Senior Data Engineer",
-  "company": "Ashgrove Robotics",
-  "location": "Bengaluru",
-  "remote": true,
-  "min_salary_lpa": 24.0,
-  "max_salary_lpa": 30.0
-}
-```
+![MCP Inspector showing a successful search_jobs call with real job data from jobs.db](demo/mcp-inspector-result.png)
 
 **3. Claude Desktop, natural language, no manual tool calls** — asked *"Find remote Python jobs paying over 20 LPA"*. Claude called `search_jobs`, noticed the keyword filter matched job descriptions rather than titles, then made several `get_job_details` calls on its own to verify each result actually required Python before answering:
 
