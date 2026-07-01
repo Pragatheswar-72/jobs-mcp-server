@@ -78,7 +78,7 @@ match_jobs(candidate_summary="Backend engineer with 4 years of Python, Django, P
 
 All four are real rows from `jobs.db`, reached via Claude's extension system (Settings → Extensions → Developer → Install Unpacked Extension), not a hand-crafted config file.
 
-Both are reproducible — run `python client_demo.py`, or `npx @modelcontextprotocol/inspector venv/Scripts/python.exe server.py`, and you'll get the same shape of result against the same seed data.
+All three are reproducible — run `python client_demo.py`, or `npx @modelcontextprotocol/inspector venv/Scripts/python.exe server.py`, and you'll get the same shape of result against the same seed data.
 
 ## Why this project
 
@@ -147,9 +147,12 @@ jobs-mcp-server/
 │   ├── queries.py             # search_jobs / get_job_details / list_skills
 │   └── matching.py            # match_jobs ranking (keyword/skill overlap)
 ├── client_demo.py             # standalone MCP client (no Claude Desktop needed)
+├── run_demo.bat               # double-click launcher for client_demo.py (Windows)
 ├── data/jobs_seed.json        # 40 seeded jobs
 ├── tests/                     # pytest suite against a temp seeded DB
+├── .github/workflows/ci.yml   # runs pytest on every push/PR
 ├── claude_desktop_config.example.json
+├── manifest.json.example      # for Claude apps that use Extensions instead
 └── requirements.txt
 ```
 
@@ -173,7 +176,7 @@ Desktop would), lists the tools and resources, and calls each tool with a
 realistic argument set — including the `get_job_details` error path for a
 bad `job_id`.
 
-On Windows, double-click `Run Demo.bat` to do the same thing without opening
+On Windows, double-click `run_demo.bat` to do the same thing without opening
 a terminal — it activates the venv, runs the demo, and pauses so you can read
 the output.
 
