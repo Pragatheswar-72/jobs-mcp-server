@@ -68,6 +68,16 @@ match_jobs(candidate_summary="Backend engineer with 4 years of Python, Django, P
 }
 ```
 
+**3. Claude Desktop, natural language, no manual tool calls** — asked *"Find remote Python jobs paying over 20 LPA"*. Claude called `search_jobs`, noticed the keyword filter matched job descriptions rather than titles, then made several `get_job_details` calls on its own to verify each result actually required Python before answering:
+
+> Remote Python roles paying 20+ LPA:
+> 1. **Senior Data Engineer** — Ashgrove Robotics — 24-30 LPA — Python, Spark, Kafka, SQL, Terraform
+> 2. **Senior DevOps Engineer** — Bright Wave Fintech — 24-33 LPA — AWS, Kubernetes, Terraform, Python, CI/CD
+> 3. **Senior Full-Stack Engineer** — Northstar Software — 22-31 LPA — Python, React, AWS, Kubernetes, GraphQL
+> 4. **Staff Software Engineer** — Nimbus Analytics — 22-28 LPA — Python, Go, Kubernetes, AWS, System Design
+
+All four are real rows from `jobs.db`, reached via Claude's extension system (Settings → Extensions → Developer → Install Unpacked Extension), not a hand-crafted config file.
+
 Both are reproducible — run `python client_demo.py`, or `npx @modelcontextprotocol/inspector venv/Scripts/python.exe server.py`, and you'll get the same shape of result against the same seed data.
 
 ## Why this project
@@ -196,9 +206,10 @@ in chat — try: *"Find remote Python jobs paying over 20 LPA"*.
 ### Newer Claude apps: install as an unpacked extension
 
 Some Claude app builds manage MCP servers as signed "Extensions" instead of
-reading `claude_desktop_config.json` directly (check **Settings → Extensions
-→ Developer** — if you see an **"Install Unpacked Extension"** button, this
-is the path to use).
+reading `claude_desktop_config.json` directly, and silently ignore/overwrite
+the `mcpServers` key above (check **Settings → Extensions → Developer** — if
+you see an **"Install Unpacked Extension"** button, this is the path to use;
+it's what produced the verified Claude Desktop result above).
 
 1. Copy `manifest.json.example` to `manifest.json` and fill in your actual
    path to `venv\Scripts\python.exe`.
