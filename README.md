@@ -70,13 +70,15 @@ match_jobs(candidate_summary="Backend engineer with 4 years of Python, Django, P
 
 **3. Claude Desktop, natural language, no manual tool calls** — asked *"Find remote Python jobs paying over 20 LPA"*. Claude called `search_jobs`, noticed the keyword filter matched job descriptions rather than titles, then made several `get_job_details` calls on its own to verify each result actually required Python before answering:
 
-> Remote Python roles paying 20+ LPA:
-> 1. **Senior Data Engineer** — Ashgrove Robotics — 24-30 LPA — Python, Spark, Kafka, SQL, Terraform
-> 2. **Senior DevOps Engineer** — Bright Wave Fintech — 24-33 LPA — AWS, Kubernetes, Terraform, Python, CI/CD
-> 3. **Senior Full-Stack Engineer** — Northstar Software — 22-31 LPA — Python, React, AWS, Kubernetes, GraphQL
-> 4. **Staff Software Engineer** — Nimbus Analytics — 22-28 LPA — Python, Go, Kubernetes, AWS, System Design
+![Claude calling search_jobs and get_job_details on its own to verify results](demo/claude-desktop-tool-calls.png)
 
-All four are real rows from `jobs.db`, reached via Claude's extension system (Settings → Extensions → Developer → Install Unpacked Extension), not a hand-crafted config file.
+![Claude's final answer, listing real jobs from jobs.db with correct titles, companies, and salaries](demo/claude-desktop-answer.png)
+
+All four are real rows from `jobs.db`, reached via Claude's extension system:
+
+![The jobs-mcp-server extension installed and enabled, with all 4 real tools listed](demo/extension-installed.png)
+
+(Settings → Extensions → Developer → Install Unpacked Extension — not a hand-crafted config file.)
 
 All three are reproducible — run `python client_demo.py`, or `npx @modelcontextprotocol/inspector venv/Scripts/python.exe server.py`, and you'll get the same shape of result against the same seed data.
 
