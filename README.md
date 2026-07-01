@@ -17,7 +17,7 @@ server's tools to answer from real data.
 
 ## Verified working
 
-Real, reproducible output — not mocked — from two different MCP clients talking to this server.
+Real, reproducible output — not mocked — from three different MCP clients talking to this server.
 
 **1. Standalone client (`python client_demo.py`)** — launches `server.py` over stdio and calls every tool:
 
