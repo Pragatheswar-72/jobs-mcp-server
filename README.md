@@ -15,6 +15,61 @@ server's tools to answer from real data.
 "Which jobs match a backend developer with Django and AWS experience?"
 ```
 
+## Verified working
+
+Real, reproducible output — not mocked — from two different MCP clients talking to this server.
+
+**1. Standalone client (`python client_demo.py`)** — launches `server.py` over stdio and calls every tool:
+
+```
+============================================================
+search_jobs(skill='Python', remote=True, min_salary_lpa=15)
+============================================================
+{
+  "job_id": 18,
+  "title": "Senior DevOps Engineer",
+  "company": "Bright Wave Fintech",
+  "location": "Remote",
+  "remote": true,
+  "min_salary_lpa": 24.0,
+  "max_salary_lpa": 33.0
+}
+...(9 more matches)
+
+============================================================
+get_job_details(job_id=9999) -- expected error
+============================================================
+Error executing tool get_job_details: No job found with job_id=9999
+(tool reported an error)
+
+============================================================
+match_jobs(candidate_summary="Backend engineer with 4 years of Python, Django, PostgreSQL, and Docker experience, comfortable with AWS.")
+============================================================
+{
+  "job_id": 37,
+  "title": "Backend Engineer",
+  "company": "Solace Digital",
+  "match_score": 24,
+  "matched_skills": ["Python", "Django", "PostgreSQL", "AWS"]
+}
+```
+
+**2. [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector)** (Anthropic's official debugging UI) — connected over stdio, ran `search_jobs(skill="Python", remote=true, min_salary_lpa=15)`, got back a live `Tool Result: Success` with real rows from `jobs.db` (10 matches; first shown):
+
+```json
+{
+  "job_id": 10,
+  "title": "Senior Data Engineer",
+  "company": "Ashgrove Robotics",
+  "location": "Bengaluru",
+  "remote": true,
+  "min_salary_lpa": 24.0,
+  "max_salary_lpa": 30.0
+}
+```
+
+Both are reproducible — run `python client_demo.py`, or `npx @modelcontextprotocol/inspector venv/Scripts/python.exe server.py`, and you'll get the same shape of result against the same seed data.
+
 ## Why this project
 
 Almost no junior portfolio has an MCP project. MCP is the emerging standard
@@ -107,6 +162,10 @@ This launches `server.py` as a subprocess over stdio (exactly how Claude
 Desktop would), lists the tools and resources, and calls each tool with a
 realistic argument set — including the `get_job_details` error path for a
 bad `job_id`.
+
+On Windows, double-click `Run Demo.bat` to do the same thing without opening
+a terminal — it activates the venv, runs the demo, and pauses so you can read
+the output.
 
 ## Connect to Claude Desktop
 
