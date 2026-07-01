@@ -1,0 +1,33 @@
+{
+  "manifest_version": "0.3",
+  "name": "jobs-mcp-server",
+  "display_name": "Jobs MCP Server",
+  "version": "1.0.0",
+  "description": "Search, filter, and match job openings from a local SQLite database of sample listings.",
+  "long_description": "A custom MCP server exposing tools to search jobs by keyword/skill/location/remote/salary, get full job details, list all skills in demand, and match a candidate summary against the best-fitting jobs. Backed by a local SQLite database seeded with 40 sample job listings.",
+  "author": {
+    "name": "Pragatheswar",
+    "url": "https://github.com/Pragatheswar-72/jobs-mcp-server"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pragatheswar-72/jobs-mcp-server"
+  },
+  "homepage": "https://github.com/Pragatheswar-72/jobs-mcp-server",
+  "server": {
+    "type": "python",
+    "entry_point": "server.py",
+    "mcp_config": {
+      "command": "C:\\path\\to\\jobs-mcp-server\\venv\\Scripts\\python.exe",
+      "args": ["${__dirname}/server.py"]
+    }
+  },
+  "tools_generated": true,
+  "compatibility": {
+    "platforms": ["win32"],
+    "runtimes": {
+      "python": ">=3.10"
+    }
+  }
+}

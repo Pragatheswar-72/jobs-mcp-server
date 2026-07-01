@@ -193,6 +193,20 @@ PATH/interpreter mismatches):
 Fully restart Claude Desktop. The `jobs` tools should appear and be callable
 in chat — try: *"Find remote Python jobs paying over 20 LPA"*.
 
+### Newer Claude apps: install as an unpacked extension
+
+Some Claude app builds manage MCP servers as signed "Extensions" instead of
+reading `claude_desktop_config.json` directly (check **Settings → Extensions
+→ Developer** — if you see an **"Install Unpacked Extension"** button, this
+is the path to use).
+
+1. Copy `manifest.json.example` to `manifest.json` and fill in your actual
+   path to `venv\Scripts\python.exe`.
+2. Settings → Extensions → Developer → **Install Unpacked Extension** → select
+   this project folder.
+3. The extension should appear in your extensions list as "Jobs MCP Server" —
+   enable it and start a new chat.
+
 ## Test with MCP Inspector
 
 [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector) is
