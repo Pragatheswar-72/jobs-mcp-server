@@ -1,0 +1,762 @@
+[
+  {
+    "job_id": 1,
+    "title": "Backend Engineer",
+    "company": "Vantara Labs",
+    "location": "Remote",
+    "remote": true,
+    "skills": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "REST APIs",
+      "Docker"
+    ],
+    "experience_level": "mid",
+    "min_salary_lpa": 13.0,
+    "max_salary_lpa": 20.0,
+    "description": "We're looking for an engineer to help modernize our internal analytics dashboards platform. You'll partner with cross-functional teams, drive technical decisions, and improve reliability and performance of systems used by thousands of users daily. Required skills: Python, Django, PostgreSQL, REST APIs, Docker.",
+    "posted_date": "2026-06-02"
+  },
+  {
+    "job_id": 2,
+    "title": "Backend Engineer",
+    "company": "Lucent Data",
+    "location": "Chennai",
+    "remote": false,
+    "skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Redis",
+      "AWS"
+    ],
+    "experience_level": "junior",
+    "min_salary_lpa": 8.0,
+    "max_salary_lpa": 16.0,
+    "description": "Help us build the next generation of fintech payments tools. This role blends hands-on coding with architectural ownership \u2014 you'll influence roadmap, review designs, and ship production code regularly. Required skills: Python, FastAPI, PostgreSQL, Redis, AWS.",
+    "posted_date": "2026-06-03"
+  },
+  {
+    "job_id": 3,
+    "title": "Senior Backend Engineer",
+    "company": "Pixel & Co",
+    "location": "Hyderabad",
+    "remote": false,
+    "skills": [
+      "Python",
+      "FastAPI",
+      "Kubernetes",
+      "AWS",
+      "Kafka"
+    ],
+    "experience_level": "senior",
+    "min_salary_lpa": 25.0,
+    "max_salary_lpa": 34.0,
+    "description": "Join our team to design, build, and scale systems that power customer-facing search. You'll work closely with product and design to ship features end-to-end, own services in production, and mentor teammates as the team grows. Required skills: Python, FastAPI, Kubernetes, AWS, Kafka.",
+    "posted_date": "2026-06-04"
+  },
+  {
+    "job_id": 4,
+    "title": "Frontend Engineer",
+    "company": "Ferrous Systems India",
+    "location": "Noida",
+    "remote": false,
+    "skills": [
+      "JavaScript",
+      "React",
+      "TypeScript",
+      "CSS",
+      "REST APIs"
+    ],
+    "experience_level": "junior",
+    "min_salary_lpa": 6.0,
+    "max_salary_lpa": 16.0,
+    "description": "We're looking for an engineer to help modernize our logistics tracking platform. You'll partner with cross-functional teams, drive technical decisions, and improve reliability and performance of systems used by thousands of users daily. Required skills: JavaScript, React, TypeScript, CSS, REST APIs.",
+    "posted_date": "2026-06-05"
+  },
+  {
+    "job_id": 5,
+    "title": "Senior Frontend Engineer",
+    "company": "Cascade Logistics",
+    "location": "Gurugram",
+    "remote": true,
+    "skills": [
+      "TypeScript",
+      "React",
+      "Next.js",
+      "GraphQL",
+      "Redux"
+    ],
+    "experience_level": "senior",
+    "min_salary_lpa": 23.0,
+    "max_salary_lpa": 29.0,
+    "description": "Help us build the next generation of healthcare data pipelines tools. This role blends hands-on coding with architectural ownership \u2014 you'll influence roadmap, review designs, and ship production code regularly. Required skills: TypeScript, React, Next.js, GraphQL, Redux.",
+    "posted_date": "2026-06-06"
+  },
+  {
+    "job_id": 6,
+    "title": "Full-Stack Engineer",
+    "company": "Harborline Payments",
+    "location": "Pune",
+    "remote": false,
+    "skills": [
+      "Python",
+      "React",
+      "PostgreSQL",
+      "Docker",
+      "TypeScript"
+    ],
+    "experience_level": "junior",
+    "min_salary_lpa": 8.0,
+    "max_salary_lpa": 15.0,
+    "description": "Join our team to design, build, and scale systems that power the recommendation engine. You'll work closely with product and design to ship features end-to-end, own services in production, and mentor teammates as the team grows. Required skills: Python, React, PostgreSQL, Docker, TypeScript.",
+    "posted_date": "2026-06-07"
+  },
+  {
+    "job_id": 7,
+    "title": "Full-Stack Engineer",
+    "company": "Kestrel Systems",
+    "location": "Ahmedabad",
+    "remote": false,
+    "skills": [
+      "Node.js",
+      "React",
+      "MongoDB",
+      "TypeScript",
+      "AWS"
+    ],
+    "experience_level": "mid",
+    "min_salary_lpa": 15.0,
+    "max_salary_lpa": 23.0,
+    "description": "We're looking for an engineer to help modernize our developer tooling platform. You'll partner with cross-functional teams, drive technical decisions, and improve reliability and performance of systems used by thousands of users daily. Required skills: Node.js, React, MongoDB, TypeScript, AWS.",
+    "posted_date": "2026-06-08"
+  },
+  {
+    "job_id": 8,
+    "title": "Senior Full-Stack Engineer",
+    "company": "Northstar Software",
+    "location": "Remote",
+    "remote": true,
+    "skills": [
+      "Python",
+      "React",
+      "AWS",
+      "Kubernetes",
+      "GraphQL"
+    ],
+    "experience_level": "senior",
+    "min_salary_lpa": 22.0,
+    "max_salary_lpa": 31.0,
+    "description": "Help us build the next generation of the mobile app backend tools. This role blends hands-on coding with architectural ownership \u2014 you'll influence roadmap, review designs, and ship production code regularly. Required skills: Python, React, AWS, Kubernetes, GraphQL.",
+    "posted_date": "2026-06-09"
+  },
+  {
+    "job_id": 9,
+    "title": "Data Engineer",
+    "company": "Orbital Works",
+    "location": "Mumbai",
+    "remote": false,
+    "skills": [
+      "Python",
+      "SQL",
+      "Spark",
+      "Airflow",
+      "AWS"
+    ],
+    "experience_level": "mid",
+    "min_salary_lpa": 13.0,
+    "max_salary_lpa": 23.0,
+    "description": "Join our team to design, build, and scale systems that power real-time messaging infrastructure. You'll work closely with product and design to ship features end-to-end, own services in production, and mentor teammates as the team grows. Required skills: Python, SQL, Spark, Airflow, AWS.",
+    "posted_date": "2026-06-10"
+  },
+  {
+    "job_id": 10,
+    "title": "Senior Data Engineer",
+    "company": "Ashgrove Robotics",
+    "location": "Bengaluru",
+    "remote": true,
+    "skills": [
+      "Python",
+      "Spark",
+      "Kafka",
+      "SQL",
+      "Terraform"
+    ],
+    "experience_level": "senior",
+    "min_salary_lpa": 24.0,
+    "max_salary_lpa": 30.0,
+    "description": "We're looking for an engineer to help modernize our e-commerce checkout platform. You'll partner with cross-functional teams, drive technical decisions, and improve reliability and performance of systems used by thousands of users daily. Required skills: Python, Spark, Kafka, SQL, Terraform.",
+    "posted_date": "2026-06-11"
+  },
+  {
+    "job_id": 11,
+    "title": "Data Scientist",
+    "company": "Quanta Health Tech",
+    "location": "Remote",
+    "remote": true,
+    "skills": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "experience_level": "mid",
+    "min_salary_lpa": 15.0,
+    "max_salary_lpa": 22.0,
+    "description": "Help us build the next generation of internal analytics dashboards tools. This role blends hands-on coding with architectural ownership \u2014 you'll influence roadmap, review designs, and ship production code regularly. Required skills: Python, SQL, Machine Learning, Pandas, Scikit-learn.",
+    "posted_date": "2026-06-12"
+  },
+  {
+    "job_id": 12,
+    "title": "Senior Data Scientist",
+    "company": "Amber Retail Tech",
+    "location": "Chennai",
+    "remote": false,
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "TensorFlow",
+      "SQL",
+      "AWS"
+    ],
+    "experience_level": "senior",
+    "min_salary_lpa": 22.0,
+    "max_salary_lpa": 30.0,
+    "description": "Join our team to design, build, and scale systems that power fintech payments. You'll work closely with product and design to ship features end-to-end, own services in production, and mentor teammates as the team grows. Required skills: Python, Machine Learning, TensorFlow, SQL, AWS.",
+    "posted_date": "2026-06-13"
+  },
+  {
+    "job_id": 13,
+    "title": "Machine Learning Engineer",
+    "company": "Zenith Mobility",
+    "location": "Hyderabad",
+    "remote": false,
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Machine Learning",
+      "Docker",
+      "AWS"
+    ],
+    "experience_level": "mid",
+    "min_salary_lpa": 13.0,
+    "max_salary_lpa": 22.0,
+    "description": "We're looking for an engineer to help modernize our customer-facing search platform. You'll partner with cross-functional teams, drive technical decisions, and improve reliability and performance of systems used by thousands of users daily. Required skills: Python, PyTorch, Machine Learning, Docker, AWS.",
+    "posted_date": "2026-06-14"
+  },
+  {
+    "job_id": 14,
+    "title": "ML Engineer",
+    "company": "BluePeak Technologies",
+    "location": "Noida",
+    "remote": false,
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "Kubernetes",
+      "MLOps",
+      "SQL"
+    ],
+    "experience_level": "junior",
+    "min_salary_lpa": 8.0,
+    "max_salary_lpa": 18.0,
+    "description": "Help us build the next generation of logistics tracking tools. This role blends hands-on coding with architectural ownership \u2014 you'll influence roadmap, review designs, and ship production code regularly. Required skills: Python, TensorFlow, Kubernetes, MLOps, SQL.",
+    "posted_date": "2026-06-15"
+  },
+  {
+    "job_id": 15,
+    "title": "NLP Engineer",
+    "company": "Cobalt Cloud",
+    "location": "Gurugram",
+    "remote": true,
+    "skills": [
+      "Python",
+      "NLP",
+      "LangChain",
+      "PyTorch",
+      "Machine Learning"
+    ],
+    "experience_level": "mid",
+    "min_salary_lpa": 15.0,
+    "max_salary_lpa": 21.0,
+    "description": "Join our team to design, build, and scale systems that power healthcare data pipelines. You'll work closely with product and design to ship features end-to-end, own services in production, and mentor teammates as the team grows. Required skills: Python, NLP, LangChain, PyTorch, Machine Learning.",
+    "posted_date": "2026-06-16"
+  },
+  {
+    "job_id": 16,
+    "title": "AI Engineer",
+    "company": "Meridian Tech",
+    "location": "Pune",
+    "remote": false,
+    "skills": [
+      "Python",
+      "LangChain",
+      "LLMs",
+      "Vector Databases",
+      "FastAPI"
+    ],
+    "experience_level": "junior",
+    "min_salary_lpa": 6.0,
+    "max_salary_lpa": 13.0,
+    "description": "We're looking for an engineer to help modernize our the recommendation engine platform. You'll partner with cross-functional teams, drive technical decisions, and improve reliability and performance of systems used by thousands of users daily. Required skills: Python, LangChain, LLMs, Vector Databases, FastAPI.",
+    "posted_date": "2026-06-17"
+  },
+  {
+    "job_id": 17,
+    "title": "DevOps Engineer",
+    "company": "Solace Digital",
+    "location": "Ahmedabad",
+    "remote": false,
+    "skills": [
+      "AWS",
+      "Terraform",
+      "Docker",
+      "Kubernetes",
+      "CI/CD"
+    ],
+    "experience_level": "mid",
+    "min_salary_lpa": 13.0,
+    "max_salary_lpa": 21.0,
+    "description": "Help us build the next generation of developer tooling tools. This role blends hands-on coding with architectural ownership \u2014 you'll influence roadmap, review designs, and ship production code regularly. Required skills: AWS, Terraform, Docker, Kubernetes, CI/CD.",
+    "posted_date": "2026-06-18"
+  },
+  {
+    "job_id": 18,
+    "title": "Senior DevOps Engineer",
+    "company": "Bright Wave Fintech",
+    "location": "Remote",
+    "remote": true,
+    "skills": [
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "Python",
+      "CI/CD"
+    ],
+    "experience_level": "senior",
+    "min_salary_lpa": 24.0,
+    "max_salary_lpa": 33.0,
+    "description": "Join our team to design, build, and scale systems that power the mobile app backend. You'll work closely with product and design to ship features end-to-end, own services in production, and mentor teammates as the team grows. Required skills: AWS, Kubernetes, Terraform, Python, CI/CD.",
+    "posted_date": "2026-06-19"
+  },
+  {
+    "job_id": 19,
+    "title": "Site Reliability Engineer",
+    "company": "Foundry AI",
+    "location": "Mumbai",
+    "remote": false,
+    "skills": [
+      "Kubernetes",
+      "Python",
+      "AWS",
+      "Monitoring",
+      "Go"
+    ],
+    "experience_level": "mid",
+    "min_salary_lpa": 15.0,
+    "max_salary_lpa": 25.0,
+    "description": "We're looking for an engineer to help modernize our real-time messaging infrastructure platform. You'll partner with cross-functional teams, drive technical decisions, and improve reliability and performance of systems used by thousands of users daily. Required skills: Kubernetes, Python, AWS, Monitoring, Go.",
+    "posted_date": "2026-06-20"
+  },
+  {
+    "job_id": 20,
+    "title": "Cloud Engineer",
+    "company": "Nimbus Analytics",
+    "location": "Bengaluru",
+    "remote": true,
+    "skills": [
+      "AWS",
+      "Azure",
+      "Terraform",
+      "Docker",
+      "Python"
+    ],
+    "experience_level": "junior",
+    "min_salary_lpa": 6.0,
+    "max_salary_lpa": 12.0,
+    "description": "Help us build the next generation of e-commerce checkout tools. This role blends hands-on coding with architectural ownership \u2014 you'll influence roadmap, review designs, and ship production code regularly. Required skills: AWS, Azure, Terraform, Docker, Python.",
+    "posted_date": "2026-06-21"
+  },
+  {
+    "job_id": 21,
+    "title": "Backend Engineer",
+    "company": "Vantara Labs",
+    "location": "Remote",
+    "remote": true,
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "Kafka",
+      "Docker"
+    ],
+    "experience_level": "mid",
+    "min_salary_lpa": 13.0,
+    "max_salary_lpa": 20.0,
+    "description": "Join our team to design, build, and scale systems that power internal analytics dashboards. You'll work closely with product and design to ship features end-to-end, own services in production, and mentor teammates as the team grows. Required skills: Java, Spring Boot, PostgreSQL, Kafka, Docker.",
+    "posted_date": "2026-07-22"
+  },
+  {
+    "job_id": 22,
+    "title": "Senior Backend Engineer",
+    "company": "Lucent Data",
+    "location": "Chennai",
+    "remote": false,
+    "skills": [
+      "Go",
+      "PostgreSQL",
+      "Docker",
+      "Kubernetes",
+      "gRPC"
+    ],
+    "experience_level": "senior",
+    "min_salary_lpa": 24.0,
+    "max_salary_lpa": 32.0,
+    "description": "We're looking for an engineer to help modernize our fintech payments platform. You'll partner with cross-functional teams, drive technical decisions, and improve reliability and performance of systems used by thousands of users daily. Required skills: Go, PostgreSQL, Docker, Kubernetes, gRPC.",
+    "posted_date": "2026-07-23"
+  },
+  {
+    "job_id": 23,
+    "title": "Software Engineer",
+    "company": "Pixel & Co",
+    "location": "Hyderabad",
+    "remote": false,
+    "skills": [
+      "Java",
+      "SQL",
+      "REST APIs",
+      "Docker",
+      "AWS"
+    ],
+    "experience_level": "mid",
+    "min_salary_lpa": 15.0,
+    "max_salary_lpa": 24.0,
+    "description": "Help us build the next generation of customer-facing search tools. This role blends hands-on coding with architectural ownership \u2014 you'll influence roadmap, review designs, and ship production code regularly. Required skills: Java, SQL, REST APIs, Docker, AWS.",
+    "posted_date": "2026-07-24"
+  },
+  {
+    "job_id": 24,
+    "title": "Senior Software Engineer",
+    "company": "Ferrous Systems India",
+    "location": "Noida",
+    "remote": false,
+    "skills": [
+      "C++",
+      "Linux",
+      "Multithreading",
+      "SQL",
+      "Git"
+    ],
+    "experience_level": "senior",
+    "min_salary_lpa": 22.0,
+    "max_salary_lpa": 32.0,
+    "description": "Join our team to design, build, and scale systems that power logistics tracking. You'll work closely with product and design to ship features end-to-end, own services in production, and mentor teammates as the team grows. Required skills: C++, Linux, Multithreading, SQL, Git.",
+    "posted_date": "2026-07-25"
+  },
+  {
+    "job_id": 25,
+    "title": "Mobile Engineer (iOS)",
+    "company": "Cascade Logistics",
+    "location": "Gurugram",
+    "remote": true,
+    "skills": [
+      "Swift",
+      "iOS",
+      "REST APIs",
+      "Git",
+      "CI/CD"
+    ],
+    "experience_level": "mid",
+    "min_salary_lpa": 13.0,
+    "max_salary_lpa": 19.0,
+    "description": "We're looking for an engineer to help modernize our healthcare data pipelines platform. You'll partner with cross-functional teams, drive technical decisions, and improve reliability and performance of systems used by thousands of users daily. Required skills: Swift, iOS, REST APIs, Git, CI/CD.",
+    "posted_date": "2026-07-26"
+  },
+  {
+    "job_id": 26,
+    "title": "Mobile Engineer (Android)",
+    "company": "Harborline Payments",
+    "location": "Pune",
+    "remote": false,
+    "skills": [
+      "Kotlin",
+      "Android",
+      "REST APIs",
+      "Git",
+      "SQL"
+    ],
+    "experience_level": "junior",
+    "min_salary_lpa": 8.0,
+    "max_salary_lpa": 15.0,
+    "description": "Help us build the next generation of the recommendation engine tools. This role blends hands-on coding with architectural ownership \u2014 you'll influence roadmap, review designs, and ship production code regularly. Required skills: Kotlin, Android, REST APIs, Git, SQL.",
+    "posted_date": "2026-07-27"
+  },
+  {
+    "job_id": 27,
+    "title": "Mobile Engineer (Flutter)",
+    "company": "Kestrel Systems",
+    "location": "Ahmedabad",
+    "remote": false,
+    "skills": [
+      "Flutter",
+      "Dart",
+      "REST APIs",
+      "Firebase",
+      "Git"
+    ],
+    "experience_level": "mid",
+    "min_salary_lpa": 15.0,
+    "max_salary_lpa": 23.0,
+    "description": "Join our team to design, build, and scale systems that power developer tooling. You'll work closely with product and design to ship features end-to-end, own services in production, and mentor teammates as the team grows. Required skills: Flutter, Dart, REST APIs, Firebase, Git.",
+    "posted_date": "2026-07-28"
+  },
+  {
+    "job_id": 28,
+    "title": "Data Analyst",
+    "company": "Northstar Software",
+    "location": "Remote",
+    "remote": true,
+    "skills": [
+      "SQL",
+      "Python",
+      "Tableau",
+      "Excel",
+      "Pandas"
+    ],
+    "experience_level": "junior",
+    "min_salary_lpa": 6.0,
+    "max_salary_lpa": 15.0,
+    "description": "We're looking for an engineer to help modernize our the mobile app backend platform. You'll partner with cross-functional teams, drive technical decisions, and improve reliability and performance of systems used by thousands of users daily. Required skills: SQL, Python, Tableau, Excel, Pandas.",
+    "posted_date": "2026-07-01"
+  },
+  {
+    "job_id": 29,
+    "title": "Senior Data Analyst",
+    "company": "Orbital Works",
+    "location": "Mumbai",
+    "remote": false,
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI",
+      "Statistics",
+      "Pandas"
+    ],
+    "experience_level": "senior",
+    "min_salary_lpa": 23.0,
+    "max_salary_lpa": 33.0,
+    "description": "Help us build the next generation of real-time messaging infrastructure tools. This role blends hands-on coding with architectural ownership \u2014 you'll influence roadmap, review designs, and ship production code regularly. Required skills: SQL, Python, Power BI, Statistics, Pandas.",
+    "posted_date": "2026-07-02"
+  },
+  {
+    "job_id": 30,
+    "title": "Backend Engineer",
+    "company": "Ashgrove Robotics",
+    "location": "Bengaluru",
+    "remote": true,
+    "skills": [
+      "Python",
+      "Flask",
+      "MySQL",
+      "Redis",
+      "Docker"
+    ],
+    "experience_level": "junior",
+    "min_salary_lpa": 8.0,
+    "max_salary_lpa": 14.0,
+    "description": "Join our team to design, build, and scale systems that power e-commerce checkout. You'll work closely with product and design to ship features end-to-end, own services in production, and mentor teammates as the team grows. Required skills: Python, Flask, MySQL, Redis, Docker.",
+    "posted_date": "2026-07-03"
+  },
+  {
+    "job_id": 31,
+    "title": "Platform Engineer",
+    "company": "Quanta Health Tech",
+    "location": "Remote",
+    "remote": true,
+    "skills": [
+      "Kubernetes",
+      "Go",
+      "Terraform",
+      "AWS",
+      "CI/CD"
+    ],
+    "experience_level": "mid",
+    "min_salary_lpa": 15.0,
+    "max_salary_lpa": 22.0,
+    "description": "We're looking for an engineer to help modernize our internal analytics dashboards platform. You'll partner with cross-functional teams, drive technical decisions, and improve reliability and performance of systems used by thousands of users daily. Required skills: Kubernetes, Go, Terraform, AWS, CI/CD.",
+    "posted_date": "2026-07-04"
+  },
+  {
+    "job_id": 32,
+    "title": "QA Automation Engineer",
+    "company": "Amber Retail Tech",
+    "location": "Chennai",
+    "remote": false,
+    "skills": [
+      "Python",
+      "Selenium",
+      "SQL",
+      "CI/CD",
+      "Git"
+    ],
+    "experience_level": "junior",
+    "min_salary_lpa": 6.0,
+    "max_salary_lpa": 14.0,
+    "description": "Help us build the next generation of fintech payments tools. This role blends hands-on coding with architectural ownership \u2014 you'll influence roadmap, review designs, and ship production code regularly. Required skills: Python, Selenium, SQL, CI/CD, Git.",
+    "posted_date": "2026-07-05"
+  },
+  {
+    "job_id": 33,
+    "title": "Frontend Engineer",
+    "company": "Zenith Mobility",
+    "location": "Hyderabad",
+    "remote": false,
+    "skills": [
+      "Vue.js",
+      "JavaScript",
+      "CSS",
+      "REST APIs",
+      "Git"
+    ],
+    "experience_level": "mid",
+    "min_salary_lpa": 13.0,
+    "max_salary_lpa": 22.0,
+    "description": "Join our team to design, build, and scale systems that power customer-facing search. You'll work closely with product and design to ship features end-to-end, own services in production, and mentor teammates as the team grows. Required skills: Vue.js, JavaScript, CSS, REST APIs, Git.",
+    "posted_date": "2026-07-06"
+  },
+  {
+    "job_id": 34,
+    "title": "Senior Frontend Engineer",
+    "company": "BluePeak Technologies",
+    "location": "Noida",
+    "remote": false,
+    "skills": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind CSS",
+      "GraphQL"
+    ],
+    "experience_level": "senior",
+    "min_salary_lpa": 24.0,
+    "max_salary_lpa": 34.0,
+    "description": "We're looking for an engineer to help modernize our logistics tracking platform. You'll partner with cross-functional teams, drive technical decisions, and improve reliability and performance of systems used by thousands of users daily. Required skills: React, TypeScript, Next.js, Tailwind CSS, GraphQL.",
+    "posted_date": "2026-07-07"
+  },
+  {
+    "job_id": 35,
+    "title": "Computer Vision Engineer",
+    "company": "Cobalt Cloud",
+    "location": "Gurugram",
+    "remote": true,
+    "skills": [
+      "Python",
+      "PyTorch",
+      "OpenCV",
+      "Computer Vision",
+      "Docker"
+    ],
+    "experience_level": "mid",
+    "min_salary_lpa": 15.0,
+    "max_salary_lpa": 21.0,
+    "description": "Help us build the next generation of healthcare data pipelines tools. This role blends hands-on coding with architectural ownership \u2014 you'll influence roadmap, review designs, and ship production code regularly. Required skills: Python, PyTorch, OpenCV, Computer Vision, Docker.",
+    "posted_date": "2026-07-08"
+  },
+  {
+    "job_id": 36,
+    "title": "Data Engineer",
+    "company": "Meridian Tech",
+    "location": "Pune",
+    "remote": false,
+    "skills": [
+      "Python",
+      "SQL",
+      "dbt",
+      "Snowflake",
+      "Airflow"
+    ],
+    "experience_level": "junior",
+    "min_salary_lpa": 6.0,
+    "max_salary_lpa": 13.0,
+    "description": "Join our team to design, build, and scale systems that power the recommendation engine. You'll work closely with product and design to ship features end-to-end, own services in production, and mentor teammates as the team grows. Required skills: Python, SQL, dbt, Snowflake, Airflow.",
+    "posted_date": "2026-07-09"
+  },
+  {
+    "job_id": 37,
+    "title": "Backend Engineer",
+    "company": "Solace Digital",
+    "location": "Ahmedabad",
+    "remote": false,
+    "skills": [
+      "Python",
+      "Django",
+      "GraphQL",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "experience_level": "mid",
+    "min_salary_lpa": 13.0,
+    "max_salary_lpa": 21.0,
+    "description": "We're looking for an engineer to help modernize our developer tooling platform. You'll partner with cross-functional teams, drive technical decisions, and improve reliability and performance of systems used by thousands of users daily. Required skills: Python, Django, GraphQL, PostgreSQL, AWS.",
+    "posted_date": "2026-07-10"
+  },
+  {
+    "job_id": 38,
+    "title": "Solutions Engineer",
+    "company": "Bright Wave Fintech",
+    "location": "Remote",
+    "remote": true,
+    "skills": [
+      "Python",
+      "SQL",
+      "AWS",
+      "REST APIs",
+      "Docker"
+    ],
+    "experience_level": "junior",
+    "min_salary_lpa": 8.0,
+    "max_salary_lpa": 17.0,
+    "description": "Help us build the next generation of the mobile app backend tools. This role blends hands-on coding with architectural ownership \u2014 you'll influence roadmap, review designs, and ship production code regularly. Required skills: Python, SQL, AWS, REST APIs, Docker.",
+    "posted_date": "2026-07-11"
+  },
+  {
+    "job_id": 39,
+    "title": "Machine Learning Engineer",
+    "company": "Foundry AI",
+    "location": "Mumbai",
+    "remote": false,
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "SQL",
+      "AWS",
+      "MLOps"
+    ],
+    "experience_level": "mid",
+    "min_salary_lpa": 15.0,
+    "max_salary_lpa": 25.0,
+    "description": "Join our team to design, build, and scale systems that power real-time messaging infrastructure. You'll work closely with product and design to ship features end-to-end, own services in production, and mentor teammates as the team grows. Required skills: Python, Machine Learning, SQL, AWS, MLOps.",
+    "posted_date": "2026-07-12"
+  },
+  {
+    "job_id": 40,
+    "title": "Staff Software Engineer",
+    "company": "Nimbus Analytics",
+    "location": "Bengaluru",
+    "remote": true,
+    "skills": [
+      "Python",
+      "Go",
+      "Kubernetes",
+      "AWS",
+      "System Design"
+    ],
+    "experience_level": "senior",
+    "min_salary_lpa": 22.0,
+    "max_salary_lpa": 28.0,
+    "description": "We're looking for an engineer to help modernize our e-commerce checkout platform. You'll partner with cross-functional teams, drive technical decisions, and improve reliability and performance of systems used by thousands of users daily. Required skills: Python, Go, Kubernetes, AWS, System Design.",
+    "posted_date": "2026-07-13"
+  }
+]
